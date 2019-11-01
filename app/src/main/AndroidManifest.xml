@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".tess"></activity>
+        <activity android:name=".pesanan"></activity>
+        <activity android:name=".tess" />
         <activity android:name=".proppil" />
         <activity android:name=".profil" />
         <activity android:name=".home" />

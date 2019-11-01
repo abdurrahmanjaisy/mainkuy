@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".loginMK"
+    android:background="@color/colorWhite">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/bekronawal"
+            android:layout_width="772dp"
+            android:layout_height="400dp"
+            android:background="@drawable/cover"
+            />
+
+        <EditText
+            android:id="@+id/namaPengguna"
+            android:layout_width="335.65dp"
+            android:layout_below="@id/bekronawal"
+            android:layout_height="54.8dp"
+            android:layout_marginTop="38dp"
+            android:background="@drawable/loginnama"
+            android:layout_centerHorizontal="true"
+            android:hint="Nama Pengguna"
+            android:gravity="center"
+            android:fontFamily="@font/sfprotext"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/kataSandi"
+            android:layout_width="335.65dp"
+            android:layout_below="@id/namaPengguna"
+            android:layout_height="54.8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/loginnama"
+            android:layout_centerHorizontal="true"
+            android:hint="Kata Sandi"
+            android:gravity="center"
+            android:fontFamily="@font/sfprotext"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/masuk"
+            android:layout_width="200dp"
+            android:layout_height="54.8dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/kataSandi"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/shape"
+            android:text="masuk"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:fontFamily="@font/sfprotext"
+            android:textSize="17sp"/>
+
+        <Button
+            android:id="@+id/daftar"
+            android:layout_width="200dp"
+            android:layout_height="54.8dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/masuk"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/loginnama"
+            android:text="DAFTAR"
+            android:textColor="@color/colorIjo"
+            android:textStyle="bold"
+            android:fontFamily="@font/sfprotext"
+            android:textSize="17sp"/>
+
+
+
+    </RelativeLayout>
+</LinearLayout>
+

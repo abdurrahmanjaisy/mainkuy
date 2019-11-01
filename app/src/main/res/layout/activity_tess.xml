@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".profil">
+
+
+    <RelativeLayout
+        android:id="@+id/bekronprofil"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/profil">
+
+        <ImageView
+            android:id="@+id/fotoprofil"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/bunder"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/namaProfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fotoprofil"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/mollenpersonaluseregularbol"
+            android:text="@string/muklas_rahmantap"
+            android:textColor="@color/colorWhite"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="125dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorIjo">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/mollenpersonaluseregularbol"
+            android:text="Nama Pengguna"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="312dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="@dimen/cardview_default_elevation"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp"
+        >
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/mollenpersonaluseregularbol"
+                android:gravity=""
+                android:text="Muklas Rahmantap"
+                android:textColor="@color/colorFont"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="-106dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="60dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorIjo">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/mollenpersonaluseregularbol"
+            android:text="Email"
+            android:textColor="@color/colorWhite" />
+
+    </RelativeLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="312dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="@dimen/cardview_default_elevation"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/mollenpersonaluseregularbol"
+                android:gravity=""
+                android:text="muclasrachmanto@gmail.com"
+                android:textColor="@color/colorFont"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="-106dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:id="@+id/bawahprofil"
+        android:layout_width="98dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorIjo">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/mollenpersonaluseregularbol"
+            android:text="No Telepon"
+            android:textColor="@color/colorWhite" />
+
+    </RelativeLayout>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/nampenggun"
+        android:layout_width="312dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="@dimen/cardview_default_elevation"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/mollenpersonaluseregularbol"
+                android:gravity=""
+                android:text="087662523647"
+                android:textColor="@color/colorFont"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="-106dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/penyewa"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/yangmana"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/marginsewa"
+            android:background="@drawable/shape"
+            android:fontFamily="@font/sfprotext"
+            android:text="Ubah Kata Sandi"
+            android:textColor="@color/colorWhite"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</LinearLayout>

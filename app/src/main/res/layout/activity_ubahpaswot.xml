@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ubahpaswot"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <EditText
+            android:id="@+id/pw_lama"
+            android:layout_width="335.65dp"
+            android:layout_height="54.8dp"
+            android:background="@drawable/loginnama"
+            android:hint="Kata Sandi Lama"
+            android:fontFamily="@font/mollenpersonaluseregular"
+            android:gravity="center"
+            android:inputType="text"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/pw_baru"
+            android:layout_width="335.65dp"
+            android:layout_height="54.8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/loginnama"
+            android:hint="Kata Sandi Baru"
+            android:fontFamily="@font/mollenpersonaluseregular"
+            android:gravity="center"
+            android:inputType="text"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/ulangpw_baru"
+            android:layout_width="335.65dp"
+            android:layout_height="54.8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/loginnama"
+            android:hint="Ketik Ulang Kata Sandi Baru"
+            android:fontFamily="@font/mollenpersonaluseregular"
+            android:gravity="center"
+            android:inputType="text"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="335.65dp"
+            android:layout_height="54.8dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape"
+            android:text="simpan"
+            android:fontFamily="@font/mollenpersonaluseregularbol"
+            android:textColor="@color/colorWhite"
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

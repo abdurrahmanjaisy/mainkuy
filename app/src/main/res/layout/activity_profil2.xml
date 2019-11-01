@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profil2">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp">
+
+        <LinearLayout
+            android:id="@+id/Gambare"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/profil"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/namaProfil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/mollenpersonaluseregularbol"
+                android:text="Cah Futsal"
+                android:textColor="@color/colorWhite"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Gambare1"
+            android:layout_below="@id/Gambare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            app:cardCornerRadius="18dp"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/lengkung"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="@string/nama_pengguna"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:text="cahfutsal" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <Button
+            android:id="@+id/Gambare2"
+            android:layout_below="@+id/Gambare1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/lengkung"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:orientation="vertical"
+            android:text="@string/ubah_kata_sandi"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Gambare3"
+            android:layout_below="@id/Gambare2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            app:cardCornerRadius="18dp"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/lengkung"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="@string/email"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:text="cahfutsal@gmail.com" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Gambare4"
+            android:layout_below="@id/Gambare3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            app:cardCornerRadius="18dp"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@drawable/lengkung"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Nomor Telepon"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:text="085895857576" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Gambare5"
+            android:layout_below="@id/Gambare4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            app:cardCornerRadius="18dp"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@drawable/lengkung"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Alamat"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:text="Jl. Ringroad Selatan No.15, Giwangan,
+                              Kec. Umbulharjo, Kota Yogyakarta,
+                                Daerah Istimewa Yogyakarta 55191" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_below="@id/Gambare5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            app:cardCornerRadius="18dp"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/WaktuBuka"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@drawable/lengkung"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Waktu Buka"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/apa"
+                    android:layout_below="@id/WaktuBuka"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="15dp"
+                    android:text="Senin" />
+                <TextView
+                    android:layout_toRightOf="@id/apa"
+                    android:layout_below="@id/WaktuBuka"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="15dp"
+                    android:text="08.00 - 01.00 WIB"
+                    />
+                <TextView
+                    android:id="@+id/apa1"
+                    android:layout_below="@id/apa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Selasa" />
+                <TextView
+                    android:layout_toRightOf="@id/apa1"
+                    android:layout_below="@id/apa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="14dp"
+                    android:text="08.00 - 01.00 WIB"
+                    />
+                <TextView
+                    android:id="@+id/apa2"
+                    android:layout_below="@id/apa1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Rabu" />
+                <TextView
+                    android:layout_toRightOf="@id/apa2"
+                    android:layout_below="@id/apa1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="23dp"
+                    android:text="08.00 - 01.00 WIB"
+                    />
+                <TextView
+                    android:id="@+id/apa3"
+                    android:layout_below="@id/apa2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Kamis" />
+                <TextView
+                    android:layout_toRightOf="@id/apa3"
+                    android:layout_below="@id/apa2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="15dp"
+                    android:text="08.00 - 01.00 WIB"
+                    />
+                <TextView
+                    android:id="@+id/apa4"
+                    android:layout_below="@id/apa3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Jumat" />
+                <TextView
+                    android:layout_toRightOf="@id/apa4"
+                    android:layout_below="@id/apa3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="15dp"
+                    android:text="08.00 - 01.00 WIB"
+                    />
+                <TextView
+                    android:id="@+id/apa5"
+                    android:layout_below="@id/apa4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Sabtu" />
+                <TextView
+                    android:layout_toRightOf="@id/apa5"
+                    android:layout_below="@id/apa4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="19dp"
+                    android:text="08.00 - 01.00 WIB"
+                    />
+                <TextView
+                    android:id="@+id/apa6"
+                    android:layout_below="@id/apa5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Minggu" />
+                <TextView
+                    android:layout_toRightOf="@id/apa6"
+                    android:layout_below="@id/apa5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="9dp"
+                    android:text="08.00 - 01.00 WIB"
+                    />
+
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+    </RelativeLayout>
+</ScrollView>

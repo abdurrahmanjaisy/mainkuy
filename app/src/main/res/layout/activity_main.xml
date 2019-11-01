@@ -8,16 +8,17 @@
     tools:context=".MainActivity"
     android:background="@color/colorWhite">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <RelativeLayout
+        <LinearLayout
             android:id="@+id/bekronawal"
-            android:layout_width="772dp"
+            android:layout_width="match_parent"
             android:layout_height="400dp"
-            android:background="@drawable/cover"
-            />
+            android:background="@drawable/cover">
+        </LinearLayout>
 
         <TextView
             android:id="@+id/yangmana"
@@ -32,51 +33,53 @@
             android:textStyle="bold"
             android:textColor="@color/colorIjo"/>
 
-        <Button
-            android:id="@+id/penyewa"
-            android:layout_width="335.65dp"
-            android:layout_height="54.8dp"
-            android:layout_centerHorizontal="true"
-            android:layout_below="@id/yangmana"
-            android:layout_marginTop="@dimen/marginsewa"
-            android:background="@drawable/shape"
-            android:text="PENYEWA"
-            android:textColor="@color/colorWhite"
-            android:textStyle="bold"
-            android:fontFamily="@font/sfprotext"
-            android:textSize="17sp"/>
-
-        <Button
-            android:id="@+id/penyedia"
-            android:layout_width="335.65dp"
-            android:layout_height="54.8dp"
-            android:layout_centerHorizontal="true"
-            android:layout_below="@id/penyewa"
-            android:layout_marginTop="21.5dp"
-            android:background="@drawable/shape"
-            android:text="PENYEDIA TEMPAT FUTSAL"
-            android:textColor="@color/colorWhite"
-            android:textStyle="bold"
-            android:fontFamily="@font/sfprotext"
-            android:textSize="17sp"/>
-
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/penyedia"
-            android:layout_marginTop="60dp">
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/marginsewa"
+            >
 
-            <TextView
-                android:id="@+id/logoawal"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_centerHorizontal="true"
-                android:background="@drawable/logo_proyek" />
-        </RelativeLayout>
+            <Button
+                android:id="@+id/penyewa"
+                android:layout_width="335.65dp"
+                android:layout_height="54.8dp"
+                android:background="@drawable/shape"
+                android:text="PENYEWA"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:fontFamily="@font/sfprotext"
+                android:textSize="17sp"
+                android:layout_gravity="center_horizontal"/>
+
+            <Button
+                android:id="@+id/penyedia"
+                android:layout_width="335.65dp"
+                android:layout_height="54.8dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="21.5dp"
+                android:background="@drawable/shape"
+                android:text="PENYEDIA TEMPAT FUTSAL"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:fontFamily="@font/sfprotext"
+                android:textSize="17sp"/>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/logo_proyek" />
+            </LinearLayout>
 
 
-
-
-    </RelativeLayout>
+    </LinearLayout>
 
 </LinearLayout>

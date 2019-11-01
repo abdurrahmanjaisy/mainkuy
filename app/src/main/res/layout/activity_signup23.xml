@@ -30,23 +30,12 @@
                 android:layout_width="335.65dp"
                 android:layout_height="54.8dp"
                 android:background="@drawable/loginnama"
-                android:hint="Nama Tempat Futdsl"
+                android:hint="Nama Lapangan"
                 android:fontFamily="@font/sfprotext"
                 android:gravity="center"
                 android:inputType="text"
                 android:layout_gravity="center_horizontal"
                 />
-
-            <EditText
-                android:id="@+id/email"
-                android:layout_width="335.65dp"
-                android:layout_height="54.8dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/loginnama"
-                android:layout_gravity="center_horizontal"
-                android:hint="Email"
-                android:gravity="center"
-                android:inputType="textEmailAddress"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -78,37 +67,37 @@
         </LinearLayout>
 
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center"
-                android:layout_marginTop="40dp"
-                >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            >
 
-                <Button
-                    android:id="@+id/kembali"
-                    android:layout_width="130dp"
-                    android:layout_height="54.8dp"
-                    android:background="@drawable/loginnama"
-                    android:layout_gravity="center"
-                    android:text="kembali"
-                    android:textColor="@color/colorIjo"
-                    android:textStyle="bold"
-                    android:fontFamily="@font/sfprotext"
-                    android:textSize="17sp"/>
+            <Button
+                android:id="@+id/kembali"
+                android:layout_width="130dp"
+                android:layout_height="54.8dp"
+                android:background="@drawable/loginnama"
+                android:layout_gravity="center"
+                android:text="kembali"
+                android:textColor="@color/colorIjo"
+                android:textStyle="bold"
+                android:fontFamily="@font/sfprotext"
+                android:textSize="17sp"/>
 
-                <Button
-                    android:id="@+id/lanjut"
-                    android:layout_width="130dp"
-                    android:layout_height="54.8dp"
-                    android:background="@drawable/shape"
-                    android:fontFamily="@font/sfprotext"
-                    android:layout_marginLeft="25dp"
-                    android:text="lanjut"
-                    android:textColor="@color/colorWhite"
-                    android:textSize="17sp"
-                    android:textStyle="bold" />
+            <Button
+                android:id="@+id/lanjut"
+                android:layout_width="130dp"
+                android:layout_height="54.8dp"
+                android:background="@drawable/shape"
+                android:fontFamily="@font/sfprotext"
+                android:layout_marginLeft="25dp"
+                android:text="selesai"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

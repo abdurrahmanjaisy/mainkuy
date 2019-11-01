@@ -5,4 +5,7 @@
     <string name="nama_pengguna">Nama Pengguna</string>
     <string name="muklas_rahmantap">Muklas Rahmantap</string>
     <string name="todo">TODO</string>
+    <string name="email">Email</string>
+    <string name="no_telepon">No Telepon</string>
+    <string name="ubah_kata_sandi">Ubah Kata Sandi</string>
 </resources>

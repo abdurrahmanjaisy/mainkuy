@@ -45,9 +45,9 @@
                 >
 
                 <TextView
-                    android:layout_width="100dp"
+                    android:layout_width="140dp"
                     android:layout_height="20dp"
-                    android:text="Fasilitas"
+                    android:text="Tambah Foto"
                     android:gravity="center_horizontal"
                     android:background="@color/colorIjo"
                     android:textColor="@color/colorWhite"

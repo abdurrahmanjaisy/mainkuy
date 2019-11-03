@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".modalwaktubuka"></activity>
+        <activity android:name=".waktubayar"></activity>
+        <activity android:name=".pembayaran" />
+        <activity android:name=".modalwaktubuka" />
         <activity android:name=".profil2" />
         <activity android:name=".pesanan2" />
         <activity android:name=".dashboard" />

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pembayaran"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorIjo"
+        android:fontFamily="@font/mollenpersonaluseregularbol"
+        android:gravity="center"
+        android:text="Rincian Pemesanan"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:orientation="vertical"
+        android:paddingHorizontal="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/modalpesen"
+            android:hint="Nama Tempat Futsal"
+            android:textSize="23sp"
+            android:fontFamily="@font/mollenpersonaluseregular"
+            android:gravity="center"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="30dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/mollenpersonaluseregularbol"
+                        android:text="Jam" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/modalpesen" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/mollenpersonaluseregularbol"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Durasi" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/modalpesen" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mollenpersonaluseregularbol"
+            android:text="Pemesan" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/modalpesen"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mollenpersonaluseregularbol"
+            android:text="Total Harga" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:text="Rp. 200.000"
+            android:fontFamily="@font/mollenpersonaluseregularbol"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorIjo"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mollenpersonaluseregularbol"
+            android:text="Metode Pembayaran" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <EditText
+                android:layout_width="130dp"
+                android:layout_height="30dp"
+                android:hint="Gopay"
+                android:fontFamily="@font/mollenpersonaluseregularbol"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15sp"
+                android:background="@drawable/modalpesen"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="081225634256"
+                android:fontFamily="@font/mollenpersonaluseregularbol"
+                android:textColor="@color/grey_font"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/modalpesen"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:text="p e m b a y a r a n"
+            android:textSize="15sp"
+            android:fontFamily="@font/mollenpersonaluseregularbol"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/shape"/>
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
